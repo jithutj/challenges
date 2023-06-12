@@ -2,7 +2,7 @@
 
 $arr = [10, 40, 55, 20, 35, 100, 70];
 
-// sort simple array in ascending/descending order in php 
+// sort simple array in ascending/descending order  without using built-in sort function
 $length = count($arr);
 for ($i = 0; $i < $length - 1; $i++) {
     $big = [];
